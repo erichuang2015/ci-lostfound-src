@@ -1,0 +1,126 @@
+
+.lf-address {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	padding-bottom: 20px;
+}
+
+
+.lf-address .section {
+	/*background-color: green;*/
+	margin-top: 20px;
+}
+
+.lf-address .title {
+	color: orange;
+	font-size: 1.1em;
+}
+
+.lf-address a.all {
+	color: red;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.lf-address .list {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.lf-address .list>li {
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline;
+}
+
+.lf-address .list a {
+	display: inline;
+}
+
+
+.lf-main-body {
+	padding: 0;
+}
+
+.lf-main-body>section{
+	border-top: 1px solid #eee;
+	border-right: 1px solid #eee;
+	border-left: 4px solid #eee;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+	transition: all .3s;
+}
+
+.lf-main-body>section:last-child {
+	border-bottom: 1px solid #eee;
+}
+
+
+.lf-main-body>section:hover {
+	background-color: #eee;
+	border-left-color: blue; 
+}
+
+.lf-main-body .title {
+	font-size: 1.5em;
+	cursor: pointer;
+	color: #777;
+}
+
+.lf-main-body .title:hover {
+
+}
+
+
+.lf-main-body .state {
+	margin-left: 10px;
+	font-size: 0.8em;
+	color: green;
+}
+
+.lf-main-body .state:before {
+	content: "[";
+	
+}
+
+.lf-main-body .state:after {
+	content: "]";
+}
+
+.lf-main-body .title {
+
+}
+
+.lf-main-body .desc {
+
+}
+
+.lf-main-body .info {
+	margin-top: 10px;
+}
+
+.lf-main-body .info>div {
+	display: inline-block;
+}
+
+.lf-main-body .info .type {
+
+}
+
+.lf-main-body .info .type>span {
+	color: #777;
+}
+
+.lf-main-body .info .update {
+	margin-left: 10px;
+}
+
+
+
+
+

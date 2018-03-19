@@ -1,0 +1,40 @@
+
+
+/* 顶部导航部分 */
+.lf-top-nav {
+	padding: 5px 0
+}
+
+.lf-logo {
+	padding: 10px 0;
+}
+
+.lf-logo>img {
+	height: 80px;
+}
+
+.lf-nav a {
+	display: inline-block;
+	color: #777;
+	font-size: 16px;
+	padding: 42px 8px;
+}
+
+.lf-nav a.active {
+	color: orange;
+}
+
+
+.lf-lore { 
+	/* 注册与登录按钮组 */
+	padding: 42px 0px;
+}
+@media screen and (max-width:800px) {
+	
+}
+
+
+/*  底部信息部分 */
+
+
+

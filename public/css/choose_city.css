@@ -1,0 +1,30 @@
+.lf-province-container {
+
+}
+
+.lf-province {
+	margin-bottom: 10px;
+}
+
+.lf-pro {
+	font-size: 1.2em;
+	text-decoration: underline;
+	margin-right: 10px;
+	color: orange;
+}
+
+.lf-city {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+.lf-city>li {
+	padding: 0 5px;
+	display: inline-block;
+}
+
+.lf-city>li>a {
+	display: block;
+}

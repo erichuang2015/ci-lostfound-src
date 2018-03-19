@@ -1,0 +1,11 @@
+
+.pc-mainbody {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.pc-container {
+	border: 1px solid #ccc;
+	min-height: 400px;
+}
+

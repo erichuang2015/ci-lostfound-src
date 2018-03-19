@@ -1,0 +1,45 @@
+
+.info-container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 0;
+	border: 1px solid #ccc;
+}
+
+.info-header {
+	border-bottom: 1px solid #ccc;
+}
+
+.info-title {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.info-tags {
+	margin: 0;
+	padding: 0;
+}
+
+.info-title h3 {
+	text-indent: 1em;
+}
+
+.info-title small {
+	margin-left: 1em;
+	font-size: 0.7em;
+	color: red;
+}
+
+.info-title small:before {
+	content: "[";
+}
+
+.info-title small:after {
+	content: "]";
+}
+
+
+
+.info-basic {
+	margin-top: 20px;
+}

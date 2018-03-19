@@ -1,0 +1,67 @@
+
+.info-container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 0;
+	border: 1px solid #ccc;
+}
+
+.info-header {
+	border-bottom: 1px solid #ccc;
+}
+
+.info-title {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.info-tags {
+	margin: 0;
+	padding: 0;
+}
+
+.info-title input {
+	margin-top: -0.7em;
+}
+
+.info-title small {
+	margin-left: 1em;
+	font-size: 0.7em;
+	color: red;
+}
+
+.info-title small:before {
+	content: "[";
+}
+
+.info-title small:after {
+	content: "]";
+}
+
+
+
+.info-basic {
+	margin-top: 20px;
+}
+#uploader #filelist div.file-panel {
+    position: absolute;
+    height: 20px;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#80000000', endColorstr='#80000000')�;
+    background: rgba( 0, 0, 0, 0.5 );
+    width: 100%;
+    top: 0;
+    left: 0;
+    /*overflow: hidden;*/
+    z-index: 300;
+}
+span.cancel {
+    width: 24px;
+    height: 24px;
+    display: inline;
+    float: right;
+    text-indent: -9999px;
+    /* overflow: hidden; */
+    background: url(../img/icons_img.png) no-repeat;
+    margin: 20px 1px 1px;
+    cursor: pointer;
+}
