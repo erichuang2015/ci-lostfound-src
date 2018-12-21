@@ -1,10 +1,18 @@
 
+<link rel="stylesheet" href="<?php echo base_url('/public/plugins/edSlider/edslider.css') ?>">
+<link rel="stylesheet" href="<?php echo base_url('/public/plugins/edSlider/animate-custom.css') ?>">
+
+<script src="<?php echo base_url('/public/plugins/edSlider/edslider.js')?>"></script>
+
 <div class="container-fluid">
 	<div class="row">
-	
 		<div class="hidden-xs hidden-sm col-md-12 lf-banner">
-		 		<div class="item" style="background-image: url(<?php echo base_url('public/img/banners/banner1.jpg') ?>)"></div>
-		 		<div class="item" style="background-image: url(<?php echo base_url('public/img/banners/banner2.png') ?>)"></div>
+			<ul class="myslider">
+				<li class="item" style="background-image: url(<?php echo base_url('/public/img/banners/banner1.jpg') ?>)"></li>
+				<li class="item" style="background-image: url(<?php echo base_url('/public/img/banners/banner2.png') ?>)"></li>
+			</ul>
+		 		<!-- <div class="item" style="background-image: url(<?php echo base_url('/public/img/banners/banner1.jpg') ?>)"></div>
+		 		<div class="item" style="background-image: url(<?php echo base_url('/public/img/banners/banner2.png') ?>)"></div> -->
 		</div>
 
 		<div class="col-md-10 col-md-offset-1 lf-mainbody">
@@ -62,4 +70,13 @@
 
 	</div>
 </div>
+<script type="text/javascript">
+	$(document).ready(function(){
+    //Initiazile plugin with your preferences
+    $('.myslider').edslider({
+        width:'100%',
+        height:'300'
+    });
+});
+</script>
 
